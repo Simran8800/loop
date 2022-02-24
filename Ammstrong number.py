@@ -20,10 +20,7 @@ if sum==n:
 else:
     print("not amstrong number")
 
-if sum==n:
-    print("amstrong number")
-else:
-    print("not amstrong number")
+
 
 
 
