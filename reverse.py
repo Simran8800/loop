@@ -1,11 +1,6 @@
-name=input("enter the name")
-sn=input("enter the sharname")
-if (name+sn):
-    print(sn+name)
-else:
-    print("worng information")
+word = input("Input a word to reverse: ")
 
-
-
-
+for i in range(len(word) - 1, -1, -1):
+  print(word[i], end="")
+print("\n.")
 
